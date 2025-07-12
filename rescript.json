@@ -16,5 +16,5 @@
     "number": "-44",
     "error": "+101"
   },
-  "bs-dependencies": []
+  "bs-dependencies": ["@rescript/react"]
 }

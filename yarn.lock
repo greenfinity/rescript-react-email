@@ -10,6 +10,7 @@ __metadata:
   resolution: "@greenfinity/rescript-react-email@workspace:."
   dependencies:
     "@react-email/components": "npm:^0.3.1"
+    "@rescript/react": "npm:^0.14.0-rc.1"
     auto-changelog: "npm:^2.5.0"
     nodemon: "npm:^3.1.7"
     react: "npm:^19.0.0"
@@ -17,6 +18,7 @@ __metadata:
     rescript: "npm:^11.1.0"
   peerDependencies:
     "@react-email/components": ^0.3.1
+    "@rescript/react": ^0.14.0-rc.1
     react: ^19.0.0
     react-dom: ^19.0.0
   languageName: unknown
@@ -290,6 +292,16 @@ __metadata:
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
   checksum: 10/3f33649b4fb7f1f0d008dcd4573b2b41a99e658b549721e89842e9b4ca70e022f2d0f543dffd374b4da0505772d82cecd2b031766fc0eb738304474688a23a5d
+  languageName: node
+  linkType: hard
+
+"@rescript/react@npm:^0.14.0-rc.1":
+  version: 0.14.0-rc.1
+  resolution: "@rescript/react@npm:0.14.0-rc.1"
+  peerDependencies:
+    react: ">=19.0.0"
+    react-dom: ">=19.0.0"
+  checksum: 10/a63c2307b687fe54dafa952ebde34cc62f1084d1c2b0642b5711e195c3d4e37515b560609fb10e5bbed3a92a3892924d5f7f5d583add68fe16f1b5403295e114
   languageName: node
   linkType: hard
 
