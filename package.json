@@ -1,0 +1,48 @@
+{
+  "name": "@greenfinity/rescript-react-email",
+  "version": "0.1.0",
+  "description": "Rescript bindings to the react-email JavaScript package",
+  "author": "Balazs Ree <ree@greenfinity.hu>",
+  "license": "MIT",
+  "scripts": {
+    "changelog": "yarn auto-changelog -p && git add HISTORY.md",
+    "build": "yarn rescript:build",
+    "rescript:clean": "yarn rescript clean",
+    "rescript:build": "yarn rescript build -with-deps",
+    "rescript:dev": "yarn rescript build -with-deps -w",
+    "yalc:dev": "yarn rescript:dev & yarn nodemon -x \"yalc push\"",
+    "yalc:push": "yarn nodemon -e res -x \"yalc push\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenfinity/rescript-react-email.git"
+  },
+  "keywords": [
+    "Rescript",
+    "React",
+    "Email"
+  ],
+  "bugs": {
+    "url": "https://github.com/greenfinity/rescript-react-email/issues"
+  },
+  "homepage": "https://github.com/greenfinity/rescript-react-email#readme",
+  "files": [
+    "src",
+    "lib",
+    "rescript.json"
+  ],
+  "devDependencies": {
+    "@react-email/components": "^0.3.1",
+    "auto-changelog": "^2.5.0",
+    "nodemon": "^3.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rescript": "^11.1.0"
+  },
+  "peerDependencies": {
+    "@react-email/components": "^0.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

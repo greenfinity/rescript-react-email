@@ -1,0 +1,20 @@
+{
+  "name": "@greenfinity/rescript-react-email",
+  "namespace": false,
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+  "suffix": ".bs.mjs",
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ],
+  "warnings": {
+    "number": "-44",
+    "error": "+101"
+  },
+  "bs-dependencies": []
+}
