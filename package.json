@@ -8,8 +8,9 @@
     "changelog": "yarn auto-changelog -p && git add HISTORY.md",
     "build": "yarn rescript:build",
     "rescript:clean": "yarn rescript clean",
-    "rescript:build": "yarn rescript build -with-deps",
-    "rescript:dev": "yarn rescript build -with-deps -w",
+    "rescript:build": "yarn rescript build",
+    "rescript:build:dev": "yarn rescript build --dev",
+    "rescript:dev": "yarn rescript watch --dev",
     "test": "yarn vitest --run --coverage --allow-only",
     "test:dev": "yarn vitest",
     "yalc:dev": "yarn rescript:dev & yarn nodemon -x \"yalc push\"",
@@ -35,7 +36,7 @@
     "rescript.json"
   ],
   "devDependencies": {
-    "@greenfinity/rescript-vitest": "^0.1.0",
+    "@greenfinity/rescript-vitest": "^0.2.0",
     "@react-email/components": "^0.3.1",
     "@rescript/react": "^0.14.0-rc.1",
     "@vitest/coverage-v8": "2.1.8",
@@ -43,17 +44,18 @@
     "nodemon": "^3.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "rescript": "^11.1.0",
+    "rescript": "^12.0.0-beta.4",
     "vitest": "^2.1.8"
   },
   "peerDependencies": {
     "@react-email/components": "^0.3.1",
     "@rescript/react": "^0.14.0-rc.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "rescript": "^12.0.0-beta.4"
   },
   "peerDevDependencies": {
-    "@greenfinity/rescript-vitest": "^0.1.0",
+    "@greenfinity/rescript-vitest": "^0.2.0",
     "@vitest/coverage-v8": "2.1.8",
     "vitest": "^2.1.8"
   },

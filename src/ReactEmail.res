@@ -38,7 +38,7 @@ module Tailwind = {
 }
 
 module Heading = {
-  type headingAs = @string [#h1 | #h2 | #h3 | #h4 | #h5 | #h6]
+  type headingAs = [#h1 | #h2 | #h3 | #h4 | #h5 | #h6]
   @react.component @module("@react-email/heading")
   external make: (
     ~id: string=?,
