@@ -1,6 +1,6 @@
 {
   "name": "@greenfinity/rescript-react-email",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Rescript bindings to the react-email JavaScript package",
   "author": "Balazs Ree <ree@greenfinity.hu>",
   "license": "MIT",
